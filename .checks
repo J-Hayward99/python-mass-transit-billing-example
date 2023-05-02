@@ -7,8 +7,6 @@ docs/changelog.txt
 docs/requirements.txt
 libs/
 libs/included_tools.py
-res/
-tests/
 .checks
 .gitignore
 config.ini
@@ -17,3 +15,10 @@ main.py
 README.md
 
 ## Additional Checks
+
+run_argument_example.bat
+run_config_example.bat
+example_data/
+example_data/journey_data.csv
+example_data/output.csv
+example_data/zone_map.csv

@@ -1,0 +1,1 @@
+python main.py example_data/zone_map.csv example_data/journey_data.csv example_data/output.csv
