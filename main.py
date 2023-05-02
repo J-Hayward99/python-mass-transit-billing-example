@@ -59,9 +59,9 @@ def main_pipeline():                                                            
     
     # CHECK PIPELINE
     check_pipeline()                                                                #   # This is used to check, leave as pass if not needed
-    get_paths()
-    load_config_data()
-    check_paths()
+    get_paths()                                                                     #   # Gets the paths and loads them to the constants
+    check_paths()                                                                   #   # Checks that the paths exist
+    load_config_data()                                                              #   # Loads the config data
     
     # PROGRAM PIPELINE
     program_pipeline()
