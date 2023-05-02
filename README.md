@@ -9,6 +9,8 @@
   - [Versions](#versions)
   - [Main Features](#main-features)
   - [Build/Run Process](#buildrun-process)
+    - [For Arguments Mode](#for-arguments-mode)
+    - [For Config Mode](#for-config-mode)
   - [Notes](#notes)
   - [Assumptions](#assumptions)
   - [Fail-safes](#fail-safes)
@@ -41,6 +43,11 @@ mapped via the zone_map.csv file.
 ## Build/Run Process
 
 - The program does not require to be built
+- There are two modes of the program: Arguments and Config
+
+### For Arguments Mode
+
+- This is used via "[Program][use_arguments] = False" line in the config
 - To run, open the terminal or command prompt in the root folder directory
   then type (without quotation marks):
 
@@ -52,6 +59,17 @@ Where the angled brackets represent the paths.
 
 - Note that in some Linux systems, "python" may have to be replaced with
   "python3"
+
+### For Config Mode
+
+- This is used via "[Program][use_arguments] = True" line in the config
+- Run the code as:
+
+```
+python main.py
+```
+
+- Edit the values via the config
 
 ## Notes
 
