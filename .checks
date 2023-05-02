@@ -1,0 +1,19 @@
+# Check list file
+
+## Default Documents Included With Structure
+
+docs/
+docs/changelog.txt
+docs/requirements.txt
+libs/
+libs/included_tools.py
+res/
+tests/
+.checks
+.gitignore
+config.ini
+LICENSE
+main.py
+README.md
+
+## Additional Checks
