@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "python-mass-transit-billing-example"
+version = "0.2.0"
+description = ""
+authors = ["James Hayward"]
+readme = "README.md"
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2.3"
+pydantic = "^2.10.6"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.9.4"
+mypy = "^1.15.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
